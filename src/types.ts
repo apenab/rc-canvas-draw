@@ -1,5 +1,5 @@
 import React from 'react';
-import { CanvasDraw } from '../src';
+import { CanvasDraw } from '.';
 
 export type Dimensions = number | string;
 
@@ -9,7 +9,6 @@ export type Bounds = {
 };
 
 export interface CanvasDrawProps extends React.Component {
-  imgSrc: string;
   loadTimeOffset?: number;
   lazyRadius?: number;
   brushRadius?: number;

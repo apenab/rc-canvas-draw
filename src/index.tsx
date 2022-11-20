@@ -10,7 +10,7 @@ import CoordinateSystem, { IDENTITY } from './coordinateSystem';
 import drawImage from './drawImage';
 import { DefaultState } from './interactionStateMachine';
 import makePassiveEventOption from './makePassiveEventOption';
-import { CanvasDrawProps } from '../types';
+import { CanvasDrawProps } from './types';
 
 function midPointBtw(p1, p2) {
   return {
@@ -65,23 +65,7 @@ export class CanvasDraw extends React.Component<CanvasDrawProps, any> {
     zoomExtents: { min: 0.33, max: 3 },
     clampLinesToDocument: false,
   };
-  canvas: {};
-  ctx: {};
-  catenary: any;
-  points: never[];
-  lines: never[];
-  erasedLines: never[];
-  mouseHasMoved: boolean;
-  valuesChanged: boolean;
-  isDrawing: boolean;
-  isPressing: boolean;
-  deferRedrawOnViewChange: boolean;
-  interactionSM: any;
-  coordSystem: any;
-
-  ///// public API /////////////////////////////////////////////////////////////
-
-  constructor(props: {} | Readonly<{}> | any) {
+  constructor(props: CanvasDrawProps) {
     super(props);
 
     this.canvas = {};
@@ -108,7 +92,7 @@ export class CanvasDraw extends React.Component<CanvasDrawProps, any> {
   }
 
   undo = () => {
-    let lines = [] as any;
+    let lines = [];
     if (this.lines.length) {
       lines = this.lines.slice(0, -1);
     } else if (this.erasedLines.length) {
@@ -120,7 +104,6 @@ export class CanvasDraw extends React.Component<CanvasDrawProps, any> {
   };
 
   eraseAll = () => {
-    //@ts-ignore
     this.erasedLines.push([...this.lines]);
     this.clearExceptErasedLines();
     this.triggerOnChange();
