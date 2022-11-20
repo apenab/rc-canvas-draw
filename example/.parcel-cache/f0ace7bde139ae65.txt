@@ -65,7 +65,7 @@
 94C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\css-tree\lib\tokenizer\utils.js132991101153350000 0
 87C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\@lezer\lr\dist\index.cjs133131156133580000 0
 87C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\abortcontroller-polyfill133131156181350971 1
-54C:\Users\pw-apena\projects\rc-canvas-draw\example\dist133132005439827502 1
+54C:\Users\pw-apena\projects\rc-canvas-draw\example\dist133134451260281150 1
 94C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\caniuse-lite\data\regions\MD.js133131134519340000 0
 89C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\mdn-data\css\syntaxes.json132991101157090000 0
 86C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\csso\lib\replace\atrule133131143685210768 1
@@ -113,7 +113,7 @@
 97C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\features\array\group-by.js133131143423680000 0
 59C:\Users\pw-apena\projects\rc-canvas-draw\example\yarn.lock133131158928338085 0
 97C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\css-tree\lib\syntax\atrule\page.js132991101153350000 0
-59C:\Users\pw-apena\projects\rc-canvas-draw\example\index.tsx133132005751535911 0
+59C:\Users\pw-apena\projects\rc-canvas-draw\example\index.tsx133134451258920903 0
 92C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\features\map\merge.js133131143423680000 0
 92C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\type-fest\source\entries.d.ts133052123976630000 0
 91C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\full\array\filter.js133131143423680000 0
@@ -671,7 +671,7 @@
 107C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\@jridgewell\gen-mapping\dist\gen-mapping.mjs133131134493490000 0
 107C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\internals\error-stack-installable.js133131143423680000 0
 93C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\actual\object\proto.js133131143423680000 0
-65C:\Users\pw-apena\projects\rc-canvas-draw\example\dist\index.html133132005439817519 0
+65C:\Users\pw-apena\projects\rc-canvas-draw\example\dist\index.html133132006237560800 0
 76C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\node-releases133131143594342417 1
 100C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\terser\lib\compress\native-objects.js133131143440510000 0
 77C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\domhandler\lib133131143613380488 1
@@ -5163,7 +5163,7 @@
 84C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\.terser-2CNroAO6\dist133131143642281195 1
 105C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\modules\esnext.string.match-all.js133131143423680000 0
 103C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\modules\esnext.symbol.dispose.js133131143423680000 0
-76C:\Users\pw-apena\projects\rc-canvas-draw\example\dist\index.6fa4ea68.js.map133132005438029948 0
+76C:\Users\pw-apena\projects\rc-canvas-draw\example\dist\index.6fa4ea68.js.map133134451260271178 0
 103C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\modules\esnext.symbol.matcher.js133131143423680000 0
 94C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\caniuse-lite\data\regions\TG.js133131134519340000 0
 105C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\internals\function-bind-context.js133131143423680000 0
@@ -5548,7 +5548,7 @@
 88C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\full\string\at.js133131143423680000 0
 97C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\full\string\code-points.js133131143423680000 0
 95C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\full\string\fontcolor.js133131143423680000 0
-72C:\Users\pw-apena\projects\rc-canvas-draw\example\dist\index.6fa4ea68.js133132005437889931 0
+72C:\Users\pw-apena\projects\rc-canvas-draw\example\dist\index.6fa4ea68.js133134451260191089 0
 90C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\core-js\full\string\link.js133131143423680000 0
 98C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\@swc\helpers\src\_object_spread.mjs133131156132010000 0
 106C:\Users\pw-apena\projects\rc-canvas-draw\example\node_modules\@parcel\workers\lib\process\ProcessChild.js133131156111750000 0

@@ -8,7 +8,8 @@ export type Bounds = {
   mas: number;
 };
 
-export interface CanvasDrawProps {
+export interface CanvasDrawProps extends React.Component {
+  imgSrc: string;
   loadTimeOffset?: number;
   lazyRadius?: number;
   brushRadius?: number;
@@ -33,5 +34,6 @@ export interface CanvasDrawProps {
   mouseZoomFactor?: number;
   zoomExtents?: Bounds;
   clampLinesToDocument?: boolean;
+  style?: React.CSSProperties;
   onChange?: (v: CanvasDraw) => void;
 }
