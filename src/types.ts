@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { CanvasDraw } from '.';
 
 export type Dimensions = number | string;
@@ -8,7 +8,8 @@ export type Bounds = {
   mas: number;
 };
 
-export interface CanvasDrawProps extends React.Component {
+export interface CanvasDrawProps {
+  ref?: React.LegacyRef<CanvasDraw>;
   loadTimeOffset?: number;
   lazyRadius?: number;
   brushRadius?: number;
